@@ -1,0 +1,25 @@
+.contact-right{
+    display: flex;
+    color: gray;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.icon-contact{
+   padding-right: 14px;
+   color: gray;
+}
+
+.icon-contact:hover{
+    color: white;
+} 
+.contact-right:hover{
+    color: white;
+}
+.hr-contact{
+   background-color: gray;
+   width: 150px;
+   height: 5px;
+  margin: 15px auto;
+  
+}

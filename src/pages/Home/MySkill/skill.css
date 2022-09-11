@@ -1,0 +1,40 @@
+
+.skill-details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+
+.details{
+    width: 200px;
+    height: 180px;
+    border: 2px solid white;
+     /* margin-right: 15px;
+     margin-left: 15px;
+     margin-top: 10px; */
+     /* Stext-align: center; */
+     border-radius: 15px;
+     
+     
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 8px;
+  
+}
+ .title{
+    margin-top: 8px;
+}
+.photo{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+   
+}
