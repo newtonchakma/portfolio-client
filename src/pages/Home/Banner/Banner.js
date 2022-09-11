@@ -8,24 +8,24 @@ const Banner = () => {
   
 
     return (
-        <div className='bg-base-content  flex justify-items-center items-center justify-center'>
+        <div className='bg-base-content flex justify-items-center items-center justify-center'>
           
             
             <div className="">
-                <div className="text-white pb-6">
+                <div className="text-white pb-6 ">
                 <h1 className='text-7xl font-bold font tracking-wider'>I'm Newton Chakma</h1>
                 <h1 className='text-4xl font-bold py-4 text-gray-300 font tracking-wider'>Web Designer & Developer</h1>
                 </div>
 
                 { /* social icon */ }
                 <div className="text-white text-5xl  " id='socialIcon'>
-                <div className="icon rounded-lg shadow">
+                <div className="icon rounded-lg shadow-inner">
                 <i class="fa-brands fa-facebook"></i>
                 </div>
-                <div className=" icon rounded-lg">
+                <div className=" icon rounded-lg shadow-inner">
                 <i class="fa-brands fa-github"></i>
                 </div>
-                <div className="icon rounded-lg">
+                <div className="icon rounded-lg shadow-inner">
                 <i class="fa-brands fa-linkedin"></i>
                 </div>
                 </div>
