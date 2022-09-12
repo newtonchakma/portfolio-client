@@ -31,9 +31,9 @@ function App() {
       
       </Routes>
       
-      <div className="py-20">
-      <ScrollToTop smooth top='400'/>
-      </div>
+    
+      <ScrollToTop smooth top='400' className='py-20'/>
+    
        <MessengerCustomerChat
     pageId="115474380583599"
     appId="467455062064227"
