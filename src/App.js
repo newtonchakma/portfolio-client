@@ -33,8 +33,8 @@ function App() {
       
       <ScrollToTop smooth top='400'/>
        <MessengerCustomerChat
-    pageId="<115474380583599>"
-    appId="<467455062064227>"
+    pageId="115474380583599"
+    appId="467455062064227"
     // htmlRef="<REF_STRING>"
   /> 
       <Footer></Footer>
