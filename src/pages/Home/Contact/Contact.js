@@ -1,4 +1,5 @@
 import React from 'react';
+import MessengerCustomerChat from 'react-messenger-customer-chat/lib/MessengerCustomerChat';
 import './Contact.css'
 const Contact = () => {
     return (
@@ -52,6 +53,11 @@ const Contact = () => {
                 </div>   
             </div>
             </div>
+            <MessengerCustomerChat
+    pageId="115474380583599"
+    appId="467455062064227"
+    // htmlRef="<REF_STRING>"
+  /> 
         </div>
     );
 };

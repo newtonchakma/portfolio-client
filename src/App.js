@@ -12,7 +12,6 @@ import Skill from './pages/Home/MySkill/Skill';
 import AboutDetails from './pages/Home/About/AboutDetails';
 import Blogs from './pages/Home/Blogs/Blogs';
 import ScrollToTop from "react-scroll-to-top";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 function App() {
@@ -32,13 +31,9 @@ function App() {
       </Routes>
       
     
-      <ScrollToTop smooth top='400' className='py-20'/>
+      <ScrollToTop smooth top='400' />
     
-       <MessengerCustomerChat
-    pageId="115474380583599"
-    appId="467455062064227"
-    // htmlRef="<REF_STRING>"
-  /> 
+     
       <Footer></Footer>
     </div>
   );
